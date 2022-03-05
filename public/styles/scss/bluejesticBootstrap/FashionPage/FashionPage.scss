@@ -1,0 +1,249 @@
+.fashion-page-wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    .title-wrapper {
+        margin-bottom: 15px;
+        h4 {
+            font-weight: 600 !important;
+            font-size: 18px;
+            line-height: 27px;
+            color: #000000;
+        }
+    }
+    .fashion-featured-wrapper {
+        margin-bottom: 30px;
+        img {
+            width: 100%;
+        }
+    }
+    .fashion-categories-wrapper {
+        margin-bottom: 30px;
+        .fashion-category-single-wrapper {
+            position: relative;
+            .fashion-category-image-wrapper {
+                img {
+                    border-radius:10px;
+                }
+            }
+            .fashion-category-content-wrapper {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                padding: 40px;
+                align-items: center;
+                h4 {
+                    a {
+                        font-weight: 600 !important;
+                        font-size: 30px;
+                        line-height: 45px;
+                        color: #FFFFFF;
+                        margin:0;
+                        &:hover {color:#556EE6;}
+                    }
+                }
+                .btn {
+                    font-weight: 500 !important;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #495057;
+                    background-color: #fff;
+                    border-radius: 5px;
+                    padding: 6px 13px;
+                    &:hover {
+                        background-color:#556EE6;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .fashion-newproduct-wrapper {
+        margin-bottom: 30px;
+        .fashion-new-product-single-wrapper {
+            position: relative;
+            .fashion-new-product-image {
+                img {
+                    border-radius:10px;
+                }
+            }
+            .fashion-new-product-description {
+                position: absolute;
+                bottom:0;
+                left:0;
+                padding: 30px 50px;
+                opacity: 0;
+                transition: all ease-in 300ms;
+                h4 {
+                    font-weight: 600 !important;
+                    font-size: 20px;
+                    line-height: 24px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                    margin: 0;
+                }
+                p {
+                    font-weight: 500 !important;
+                    font-size: 14px;
+                    line-height: 15px;
+                    letter-spacing: 0.1px;
+                    color: #FFFFFF;
+                    margin: 0;
+                }
+                
+            }
+            &:hover {
+                .fashion-new-product-description {
+                   opacity: 1;
+                }
+            }
+        }
+    }
+    .fashion-toppicks-wrapper, .fashion-getinspired-wrapper, .fashion-brands-wrapper, .fashion-trending-wrapper {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .fashion-product-single-wrapper {
+        position: relative;
+        .product-image-wrapper {
+            img {
+                width: 100%;
+            }
+        }
+        .product-meta-info {
+            position: absolute;
+            left: 0;
+            bottom:0;
+            padding: 15px 20px;
+            display: flex;
+            width: 100%;
+            p {
+                margin: 0;
+                margin-right: 10px;
+                color: #fff;
+                img {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    .fashion-brand-single-wrapper {
+        margin-right: 20px;
+        text-align: center;
+        .fashion-brand-image {
+            margin-bottom: 10px;
+            img {
+                width: 100%;
+            }
+        }
+        .fashion-brand-content {
+            h4 {
+                a {
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #000000;
+                    text-transform: uppercase;
+                    &:hover {
+                        color: #556EE6;
+                    }
+                }
+            }
+        }
+    }
+    .fashion-trending-single-wrapper {
+        position: relative;
+        .fashion-trending-image {
+            img {
+                border-radius: 10px;
+            }
+        }
+        .fashion-trending-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            .fashion-trending-badge {
+                display:inline-block;
+                padding: 0px 10px;
+                border-radius: 8px;
+                margin-bottom: 6px;
+                margin-left: 5px;
+                span {
+                    font-size: 12px;
+                    line-height: 18px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+            .fashion-trending-title {
+                padding: 5px 10px;
+                border-radius: 0 5px 5px 0px;
+                margin-bottom: 6px;
+                background: rgba(0, 0, 0, 0.5);
+                width: 85%;
+                p {
+                    font-size: 11px;
+                    line-height: 16px;
+                    color: #FFFFFF;
+                    margin: 0;
+                    display: inline-block;
+                }
+            }
+            .fashion-trending-meta {
+                padding: 5px 10px;
+                border-radius: 0 5px 5px 0px;
+                margin-bottom: 6px;
+                background: rgba(0, 0, 0, 0.5);
+                width: 90%;
+                ul {
+                    list-style: none;
+                    display:flex;
+                    padding:0;
+                    margin: 0;
+                    li {
+                        margin-right: 10px;
+                        color:#fff;
+                        font-size: 9px;
+                        line-height: 20px;
+                        letter-spacing: 0.32px;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+    .slick-dots {
+        width: auto;
+        top: -45px;
+        right: 0px;
+        height: 30px;
+        li {
+            width:8px;
+            button{
+                width:8px;
+                padding: 0;
+                &:before {
+                    content:'';
+                    width: 8px;
+                    height: 8px;
+                    background: #C4C4C4;
+                    border-radius: 8px;
+                    opacity: 1;
+                }
+            }
+            &.slick-active {
+                width:20px;
+                button {
+                    &:before {
+                        width: 20px;
+                        background: #5F40AF;
+                    }
+                }
+            }
+        }
+    }
+}

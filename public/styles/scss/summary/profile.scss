@@ -1,0 +1,51 @@
+.dashboard-content-wrapper {
+  
+  .content-title {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600 !important;
+      font-size: 22px;
+      line-height: 33px;
+      color: #000000;
+  }
+  .all_card{
+    // padding: 30px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 30px;    
+    .card_header{
+      padding-top: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      .header-title{      
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600 !important;
+        font-size: 18px;
+        line-height: 27px;
+        color: #000000;
+      }
+      .progressNum{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600 !important;
+        font-size: 18px;
+        line-height: 39px;
+        color: #000000;
+      }
+      .header-description{
+        margin-top: -10px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500 !important;
+        font-size: 14px;
+        line-height: 21px;
+        color: #808191;
+      }
+    }
+    .card_body{
+      padding: 30px;
+    }
+  }
+}

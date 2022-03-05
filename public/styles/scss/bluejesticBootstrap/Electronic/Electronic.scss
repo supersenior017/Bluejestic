@@ -1,0 +1,94 @@
+.electronics-wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    .main-slider {
+        margin-bottom: 30px;
+    }
+    .electronics-main-wrapper {
+        margin-bottom: 30px;
+        img {
+            width: 100%;
+        }
+        .small-banner-1 {
+            margin-bottom: 20px;
+        }
+    }
+    .categories-wrapper {
+        margin-bottom: 30px;
+        padding: 0 50px;
+        .category {
+            border-radius:10px;
+            height:177px;
+            padding: 20px;
+            text-align: center;
+            img {
+                margin-bottom:15px;
+                height:95px;
+            }
+            h4 {
+                font-size: 12px;
+                line-height:18px;
+                font-weight: 700 !important;
+                color: #fff;
+            }
+            &.orange {
+                background-color:#D7863B;
+            }
+            &.green {
+                background-color: #79963B;
+            }
+            &.blue {
+                background-color: #5075BD;
+            }
+            &.purple {
+                background-color: #4E419E;
+            }
+        }
+    }
+    .products-banner {
+        margin-top: -70px;
+    }
+    .categories-banner-big {
+        margin-bottom: 30px;
+        padding: 0 50px;
+        margin-top: -50px;
+        .category {
+            border-radius:10px;
+            height:241px;
+            padding: 20px;
+            text-align: center;
+            img {
+                margin-bottom:15px;
+                height:130px;
+            }
+            h4 {
+                font-size: 18px;
+                line-height:27px;
+                font-weight: 700 !important;
+                color: #fff;
+            }
+            &.brown {
+                background-color: #A7633D;
+            }
+            &.gray {
+                background-color: #5E809F;
+            }
+            &.cyan {
+                background-color: #2AAEA6;
+            }
+        }
+    }
+    .top-rated-wrapper {
+        padding: 20px 30px;
+        border-radius: 10px;
+        background-color:#fff;
+        margin-bottom: 30px;
+        h4 {
+            font-weight: 500 !important;
+            font-size: 18px;
+            line-height: 27px;
+            color: #000;
+        }
+    }
+}

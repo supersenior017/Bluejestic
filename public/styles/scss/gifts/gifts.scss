@@ -1,0 +1,56 @@
+.input-tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.input-tag input {
+    width: 250px;
+}
+
+.redeem-gift h4 {
+    margin-bottom: 30px;
+}
+.detail-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-gifts img {
+    object-fit: cover;
+    width: 100%;
+}
+.gift-page .cus-white {
+  
+    padding: 10px 50px;
+   
+    margin-bottom: 20px;
+}
+.cus-white {
+    background-color: #ffff;
+    max-width: 96%;
+    padding: 50px;
+    border-radius: 24px;
+}
+.active-color span {
+    color: #FF7D23;
+}
+.active-color h4 {
+    color: #FF7D23;
+}
+.buttons {
+    padding-top: 100px;
+}
+.buttons button {
+    border: 1px solid #828282;
+    border-radius: 12px;
+    background-color: #fff;
+    color: #828282;
+    margin-right: 40px;
+}
+.buttons button:hover {
+    background: #556EE6;
+    color: #fff;
+    border-color: #556EE6;
+}

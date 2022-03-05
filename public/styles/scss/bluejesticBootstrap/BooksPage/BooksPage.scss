@@ -1,0 +1,286 @@
+.books-wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    .slick-dots {
+        width: auto;
+        top: -35px;
+        right: 30px;
+        height: 30px;
+        li {
+            width:8px;
+            button{
+                width:8px;
+                padding: 0;
+                &:before {
+                    content:'';
+                    width: 8px;
+                    height: 8px;
+                    background: #C4C4C4;
+                    border-radius: 8px;
+                    opacity: 1;
+                }
+            }
+            &.slick-active {
+                width:20px;
+                button {
+                    &:before {
+                        width: 20px;
+                        background: #5F40AF;
+                    }
+                }
+            }
+        }
+    }
+    .book-single-wrapper {
+        text-align: center;
+        margin-right: 10px;
+        width:134px;
+        margin: 0 auto;
+        .book-single-image {
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            img {
+                margin: 0 auto;
+            }
+        }
+        .book-single-content {
+            h4 {
+                a {
+                font-weight: 500 !important;
+                font-size: 12px;
+                line-height: 18px;
+                color: #808191;
+                margin-bottom: 5px;
+                display: block;
+                &:hover {color:#556EE6}
+                }
+            }
+            p {
+                font-weight: 500 !important;
+                font-size: 12px;
+                line-height: 18px;
+                color: #000;
+                margin-bottom: 5px;
+                span {
+                    color: #FF7D23;
+                }
+                &.price {
+                    font-weight: 500 !important;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: #000000;
+                }
+            }
+        }
+    }
+    .books-title-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        h2 {
+            font-weight: 500 !important;
+            font-size: 16px;
+            line-height: 24px;
+            color: #1E2432;
+        }
+    }
+    .books-category-wrapper  {
+        background-color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        .books-category-single-wrapper {
+            text-align: center;
+            width: 70px;
+            .books-category-single-image {
+                padding: 20px;
+                border-radius: 10px;
+                margin-bottom: 15px;
+                img {
+                width: 40px;
+                margin:0 auto;
+                }
+            }
+            h4 {
+                color: #808191;
+                font-weight: 600 !important;
+                font-size: 10px;
+                line-height: 15px;
+                letter-spacing: 0.1px;
+            }
+        }
+    }
+    .book-popular-now-wrapper {
+        background-color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+    }
+    .books-bestsellers-wrapper {
+        background-color: #ffffff;
+        padding: 10px 10px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        max-height: 400px;
+        overflow: auto;
+        .books-title-wrapper {
+            padding-bottom: 10px;
+            border-bottom: 1px solid #F1F1F5;
+            h2 {
+                margin: 0;
+            }
+        }
+        .books-bestseller-content {
+            .bestseller-single-wrapper {
+                padding: 10px 0px;
+                border-bottom: 1px solid #F1F1F5;
+                display: flex;
+                .bestseller-image {
+                    flex: 25%;
+                    text-align: center;
+                    img {
+                        margin: 0 auto;
+                    }
+                }
+                .bestseller-content {
+                    padding-left: 15px;
+                    flex: 75%;
+                    h5 {
+                        a {
+                        font-weight: 500 !important;
+                        font-size: 13px;
+                        line-height: 24px;
+                        color: #808191;
+                        margin: 0;
+                        &:hover {color:#556EE6}
+                        }
+                    }
+                    p {
+                        font-weight: 500 !important;
+                        font-size: 13px;
+                        line-height: 18px;
+                        color: #000;
+                        margin-bottom: 5px;
+                        span {
+                            color: #FF7D23;
+                        }
+                    }
+                    .bestseller-meta {
+                        display: flex;
+                        align-items: center;
+                        p {
+                            margin-right: 10px;
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: 0.1px;
+                            color: #ACB1C0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .books-popularbooks-wrapper {
+        background-color: #ffffff;
+        padding: 10px 10px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        max-height: 400px;
+        overflow: auto;
+        .books-title-wrapper {
+            padding-bottom: 10px;
+            border-bottom: 1px solid #F1F1F5;
+            h2 {
+                margin: 0;
+            }
+        }
+        .books-popularbooks-content {
+            .popularbooks-single-wrapper {
+                padding: 10px 0px;
+                border-bottom: 1px solid #F1F1F5;
+                display: flex;
+                align-items: center;
+                .popularbooks-image {
+                    flex: 25%;
+                    text-align: center;
+                    img {
+                        margin: 0 auto;
+                    }
+                }
+                .popularbooks-content {
+                    padding-left: 15px;
+                    flex: 75%;
+                    h5 {
+                        a {
+                        font-weight: 500 !important;
+                        font-size: 13px;
+                        line-height: 24px;
+                        color: #808191;
+                        margin: 0;
+                        &:hover {color:#556EE6}
+                        }
+                    }
+                    p {
+                        font-weight: 500 !important;
+                        font-size: 13px;
+                        line-height: 18px;
+                        color: #000;
+                        margin-bottom: 5px;
+                        span {
+                            color: #FF7D23;
+                        }
+                    }
+                    .popularbooks-meta {
+                        display: flex;
+                        align-items: center;
+                        p {
+                            margin-right: 10px;
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: 0.1px;
+                            color: #ACB1C0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .books-featured-slider-wrapper {
+        margin-bottom: 30px;
+        .books-featured-single-wrapper {
+            margin-right: 15px;
+            display: flex;
+            padding: 15px;
+            border-radius: 10px;
+            .books-featured-single-image {
+                flex: 40%;
+            }
+            .books-featured-single-content {
+                flex: 60%;
+                padding-left: 20px;
+                h4 {
+                    font-weight: 500 !important;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                    margin: 0;
+                }
+                p {
+                    font-weight: 500 !important;
+                    font-size: 10px;
+                    line-height: 15px;
+                    color: #fff;
+                    margin-bottom: 5px;
+                    span {
+                        color: #FF7D23;
+                    }
+                }
+                .description {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
